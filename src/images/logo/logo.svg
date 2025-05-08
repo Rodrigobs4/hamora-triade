@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Camada_1" data-name="Camada 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3644.84 984.36">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        font-family: Expressa-Serial-Regular, 'Expressa-Serial DB';
+        font-size: 888.65px;
+      }
+
+      .cls-2 {
+        stroke-width: 22.52px;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-3 {
+        stroke-width: 25.11px;
+      }
+
+      .cls-4 {
+        stroke-width: 25.06px;
+      }
+
+      .cls-5 {
+        stroke-width: 27.74px;
+      }
+
+      .cls-6 {
+        stroke-width: 25.31px;
+      }
+
+      .cls-7 {
+        letter-spacing: 0em;
+      }
+    </style>
+  </defs>
+  <rect class="cls-6" x="12.66" y="12.66" width="232.42" height="797.41" rx="116.21" ry="116.21"/>
+  <rect class="cls-6" x="502.43" y="12.66" width="232.42" height="797.41" rx="116.21" ry="116.21"/>
+  <rect class="cls-2" x="283.39" y="56.84" width="183.97" height="718.96" rx="91.99" ry="91.99" transform="translate(-40.95 791.7) rotate(-90)"/>
+  <circle class="cls-4" cx="122.08" cy="418.46" r="89.85"/>
+  <circle class="cls-5" cx="130.66" cy="118.58" r="99.7"/>
+  <text class="cls-1" transform="translate(820.76 777.31)"><tspan x="0" y="0">hamo</tspan><tspan class="cls-7" x="2109.62" y="0">r</tspan><tspan x="2315.78" y="0">a</tspan></text>
+  <ellipse class="cls-3" cx="623.84" cy="417.38" rx="91.27" ry="88.77"/>
+  <circle class="cls-5" cx="618.3" cy="118.58" r="99.7"/>
+  <circle class="cls-5" cx="131.55" cy="701.08" r="99.7"/>
+  <circle class="cls-5" cx="619.19" cy="701.08" r="99.7"/>
+</svg>
