@@ -7,6 +7,7 @@ import 'jsvectormap/dist/css/jsvectormap.css';
 import 'flatpickr/dist/flatpickr.min.css';
 import { supabase } from './lib/supabaseClient';
 import { SessionContextProvider } from '@supabase/auth-helpers-react';
+import 'jsvectormap/dist/css/jsvectormap.css';
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <SessionContextProvider supabaseClient={supabase}>
