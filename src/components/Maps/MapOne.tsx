@@ -1,7 +1,7 @@
 import jsVectorMap from 'jsvectormap';
-import '@/css/jsvectormap.css';
+import '@/css/jsvectormap.css'; // ✅ CSS local funcionando
 import { useEffect } from 'react';
-import '../../js/us-aea-en';
+import '../../js/us-aea-en'; // Certifique-se que este arquivo existe
 
 const MapOne = () => {
   useEffect(() => {
@@ -38,8 +38,12 @@ const MapOne = () => {
         },
       },
     });
-    mapOne;
-  });
+
+    // opcional: destrói o mapa ao desmontar
+    return () => {
+      mapOne.destroy();
+    };
+  }, []);
 
   return (
     <div className="col-span-12 rounded-sm border border-stroke bg-white py-6 px-7.5 shadow-default dark:border-strokedark dark:bg-boxdark xl:col-span-7">
