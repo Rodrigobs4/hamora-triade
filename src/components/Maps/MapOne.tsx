@@ -1,7 +1,7 @@
-import jsVectorMap from 'jsvectormap';
-import '@/css/jsvectormap.css'; // ✅ CSS local funcionando
 import { useEffect } from 'react';
-import '../../js/us-aea-en'; // Certifique-se que este arquivo existe
+import jsVectorMap from 'jsvectormap';
+import '@/css/jsvectormap.css'; // ✅ usando versão local
+import '../../js/us-aea-en'; // ✅ mantendo o mapa customizado
 
 const MapOne = () => {
   useEffect(() => {
@@ -9,15 +9,9 @@ const MapOne = () => {
       selector: '#mapOne',
       map: 'us_aea_en',
       zoomButtons: true,
-
       regionStyle: {
-        initial: {
-          fill: '#C8D0D8',
-        },
-        hover: {
-          fillOpacity: 1,
-          fill: '#3056D3',
-        },
+        initial: { fill: '#C8D0D8' },
+        hover: { fillOpacity: 1, fill: '#3056D3' },
       },
       regionLabelStyle: {
         initial: {
@@ -25,11 +19,8 @@ const MapOne = () => {
           fontWeight: 'semibold',
           fill: '#fff',
         },
-        hover: {
-          cursor: 'pointer',
-        },
+        hover: { cursor: 'pointer' },
       },
-
       labels: {
         regions: {
           render(code: string) {
@@ -39,10 +30,7 @@ const MapOne = () => {
       },
     });
 
-    // opcional: destrói o mapa ao desmontar
-    return () => {
-      mapOne.destroy();
-    };
+    return () => mapOne.destroy(); // 🧹 limpeza para evitar leaks
   }, []);
 
   return (
