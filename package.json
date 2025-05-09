@@ -20,7 +20,7 @@
     "@supabase/auth-helpers-react": "^0.5.0",
     "@supabase/supabase-js": "^2.49.4",
     "antd": "^5.24.7",
-    "apexcharts": "^3.41.0",
+    "apexcharts": "^4.7.0",
     "braces": "^3.0.3",
     "flatpickr": "^4.6.13",
     "headlessui": "^0.0.0",
